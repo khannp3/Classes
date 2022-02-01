@@ -1,0 +1,26 @@
+<testsuites>
+	<testsuite name="AllTests" tests="23">
+		<testcase classname="AllTests" name="testConstructor1Invalid1"/>
+		<testcase classname="AllTests" name="testConstructor1Invalid2"/>
+		<testcase classname="AllTests" name="testConstructor1Valid"/>
+		<testcase classname="AllTests" name="testConstructor2"/>
+		<testcase classname="AllTests" name="testGetElementValid"/>
+		<testcase classname="AllTests" name="testGetElementInvalid"/>
+		<testcase classname="AllTests" name="testSetElementValid"/>
+		<testcase classname="AllTests" name="testSetElementInvalid"/>
+		<testcase classname="AllTests" name="testCopy"/>
+		<testcase classname="AllTests" name="testAddToInvalid"/>
+		<testcase classname="AllTests" name="testAddToValid"/>
+		<testcase classname="AllTests" name="testSubMatrixValid"/>
+		<testcase classname="AllTests" name="testSubMatrixInvalid"/>
+		<testcase classname="AllTests" name="testIsUpperTrTrue"/>
+		<testcase classname="AllTests" name="testIsUpperTrFalse"/>
+		<testcase classname="AllTests" name="testIsUpperTrFalseNotSquare"/>
+		<testcase classname="AllTests" name="testConstructor1Invalid2_new">
+			<failure message="..\Test.cpp:37 testConstructor1Invalid2_new: expected == b.toString() expected:	0 \n	but was:	0 0 0 \n0 0 0 \n0 0 0 \n	">
+testConstructor1Invalid2_new: expected == b.toString() expected:	0 \n	but was:	0 0 0 \n0 0 0 \n0 0 0 \n	
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="testGetElementInvalid_new"/>
+		<testcase classname="AllTests" name="testSetElementValid_new"/>
+		<testcase classname="AllTests
